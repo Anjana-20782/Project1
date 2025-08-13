@@ -7,7 +7,12 @@ body{
 .first{
 
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+   
     /* background-color: blue; */
    
 }
@@ -77,22 +82,78 @@ body{
 }
  .second{
 
-    width: 50%;
-    height: 65vh;
+    width: 100%;
+    height: 80vh;
     /* background-color: red; */
+    display: flex;
+   
+    align-items: center;
+    
 
  }
 
  .second1{
 
-    width: 50%;
-    height: 40vh;
+    width: 40%;
+    height: 52vh;
     /* background-color: blue; */
+    margin-left: 210px;
+
+    
  }
 
- .second h1{
+ .second1 h1{
 
-    font-size: 45px;
+    font-size: 65px;
     width: 100%;
-    color: rgb(16, 62, 112);
+    color: rgb(4, 42, 83);
+ }
+
+ .second1 p{
+
+   font-size: 19px;
+   color: rgb(183, 178, 178);
+   height: 70px;
+ }
+
+ .second1 .b2{
+
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-left: 30px;
+ }
+
+ .second2{
+
+    width: 50%;
+    height: 60vh;
+    /* background-color: red; */
+ }
+
+ .second2 img{
+    
+    width: 90%;
+    height: 100%;
+ }
+
+
+ /* second */
+
+ .third{
+
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+ }
+
+ .thirdone{
+
+    width: 40%;
+    height: 50vh;
+    background-color: blue;
  }
