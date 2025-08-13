@@ -1,7 +1,11 @@
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
 
     padding: 0;
     margin: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .first{
@@ -10,7 +14,7 @@ body{
     height: 100vh;
     background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-position: right -100px top -180px;
+    background-position: right -200px top -180px;
     
    
     /* background-color: blue; */
@@ -106,6 +110,7 @@ body{
 
     font-size: 65px;
     width: 100%;
+    height: 300px;
     color: rgb(4, 42, 83);
  }
 
@@ -130,8 +135,8 @@ body{
 
  .second2{
 
-    width: 50%;
-    height: 60vh;
+    width: 43%;
+    height: 65vh;
     /* background-color: red; */
  }
 
@@ -152,6 +157,7 @@ body{
    background-image: url(./images/bg-tablet-pattern.svg);
    background-repeat: no-repeat;
    background-position: left -500px top 300px ;
+   
  }
 
  .thirdone{
@@ -248,7 +254,7 @@ padding-left: 50px;
  .four{
 
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     /* background-color: red; */
  }
 
@@ -271,6 +277,8 @@ text-align: center;
 
     width: 100%;
     height: 40vh;
+    display: flex;
+    gap: 30px;
     /* background-color: blue; */
  }
 
@@ -298,6 +306,7 @@ font-size: 19px;
 padding-top: 70px;
 padding-left: 170px;
 color: rgb(8, 58, 112);
+height: 50px;
  }
 
  .card1 p{
@@ -305,9 +314,171 @@ color: rgb(8, 58, 112);
     font-size: 17px;
     width: 76%;
     color: rgb(177, 172, 172);
-    padding-left: 80px;
+    padding-left: 50px;
+    text-align: center;
 
  }
 
+ .four .b2{
 
+     width: 150px;
+    height: 50px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-left: 30px;
+    margin-left: 40%;
+ }
+
+ /* five */
+
+ .five{
+
+    width: 100%;
+    height: 25vh;
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+    background-color: rgb(236, 88, 13);
+    background-size: cover;
+    display: flex;
+   
+ }
+
+
+ .fiveone{
+
+    width: 30%;
+    height: 10vh;
+    /* background-color: blue; */
+    margin-left: 180px;
+    padding-top: 90px;
+    color: rgb(233, 227, 227);
+ }
+
+ .fivetwo{
+
+    width: 10%;
+    height: 10vh;
+    /* background-color: blue; */
+    margin-left: 30%;
+    margin-top: 130px;
+ }
+
+ .fivetwo .b4{
+
+     width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 106, 0);
+    font-weight: 600;
+ }
+
+ /* six */
+
+ .six{
+
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    align-items: center;
+ }
+
+ .footer1{
+
+    width: 10%;
+    height:15vh;
+    /* background-color: red; */
+    margin-left: 140px;
+     color: white;
+   
+ }
+
+ /* .footer1 img{
+
+    filter: brightness(0) invert(1);
+ } */
+
+ .icons{
+
+
+ }
+ 
+
+ .icons img{
+
+    width: 20px;
+    height:20px;
+    padding-top: 30px;
+ }
+
+ .footer2{
+
+    width: 15%;
+    height: 20vh;
+    /* background-color: blue; */
+    margin-left: 100px;
+ }
+
+ .item2{
+
+    font-size: 14px;
+    color: rgb(213, 208, 208);
+  padding-left: 20px;
+  padding-top: 15px;
+    
+ }
+
+
+ .footer3{
+
+    width: 15%;
+    height: 15vh;
+    margin-left: 100px;
+    /* background-color: blue; */
+ }
+
+
+ .footer4{
+
+    width: 20%;
+    height: 15vh;
+    /* background-color: blue; */
+    margin-left: 170px;
+    
+ }
+
+
+ .footer4 input{
+
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+ }
+
+ .footer4 .b6{
+
+     width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(241, 101, 41);
+    border: none;
+    margin-left: 10px;
+ }
+
+ .footer4 p{
+
+font-size: 12px;
+color: rgb(168, 165, 165);
+padding-top: 50px;
+padding-left: 80px;
+ }
+ 
 
